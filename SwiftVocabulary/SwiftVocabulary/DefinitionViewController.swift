@@ -13,10 +13,16 @@ class DefinitionViewController: UIViewController {
     @IBOutlet weak var defintion: UITextView!
     
     @IBOutlet weak var vocabulary: UILabel!
+    
+    var word: String?
+    var meaning: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
+        defintion.text = word
+        vocabulary.text = meaning
         
         // Do any additional setup after loading the view.
     }
