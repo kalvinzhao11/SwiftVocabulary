@@ -10,8 +10,8 @@ import UIKit
 
 class WordsTableViewController: UITableViewController {
 
-    var vocabWords: [VocabularyWord] = [VocabularyWord(word: "Varaible", defintion: "String"),
-                                        VocabularyWord(word: "Constant", defintion: "String"), VocabularyWord(word: "Function", defintion: "String")]
+    var vocabWords: [VocabularyWord] = [VocabularyWord(word: "Variable", defintion: "A variable provides us with named storage that our programs can manipulate. Each variable in Swift 4 has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable."),
+                                        VocabularyWord(word: "Constant", defintion: "Constants refer to fixed values that a program may not alter during its execution. Constants can be of any of the basic data types like an integer constant, a floating constant, a character constant, or a string literal. There are enumeration constants as well."), VocabularyWord(word: "Function", defintion: "A function is a set of statements organized together to perform a specific task. A Swift 4 function can be as simple as a simple C function to as complex as an Objective C language function. It allows us to pass local and global parameter values inside the function calls.")]
     
 
     // MARK: - Table view data source
@@ -84,8 +84,7 @@ class WordsTableViewController: UITableViewController {
             if let indexPath = tableView.indexPathForSelectedRow{
                 let vocabulary = vocabWords[indexPath.row]
                 
-                defintionVC?.word = vocabulary.word
-                defintionVC?.meaning = vocabulary.defintion
+                defintionVC?.vocabWord = vocabulary
             }
             
         }
