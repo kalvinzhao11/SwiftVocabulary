@@ -62,16 +62,16 @@
 		896C13E624D0F8560074C871 /* SwiftVocabulary */ = {
 			isa = PBXGroup;
 			children = (
+				896C13FD24D0F9170074C871 /* WordsTableViewController.swift */,
+				896C13FF24D0F9440074C871 /* DefinitionViewController.swift */,
 				896C13E724D0F8560074C871 /* AppDelegate.swift */,
 				896C13E924D0F8560074C871 /* SceneDelegate.swift */,
 				896C13EB24D0F8560074C871 /* ViewController.swift */,
-				896C13ED24D0F8560074C871 /* Main.storyboard */,
 				896C140124D102860074C871 /* VocabularyWord.swift */,
 				896C13F024D0F8580074C871 /* Assets.xcassets */,
+				896C13ED24D0F8560074C871 /* Main.storyboard */,
 				896C13F224D0F8580074C871 /* LaunchScreen.storyboard */,
 				896C13F524D0F8580074C871 /* Info.plist */,
-				896C13FD24D0F9170074C871 /* WordsTableViewController.swift */,
-				896C13FF24D0F9440074C871 /* DefinitionViewController.swift */,
 			);
 			path = SwiftVocabulary;
 			sourceTree = "<group>";
